@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<FileInfo fileVersion="0.50" numWaypointGroups="1" numEntities="0">
+	<WaypointGroup name="Group1" waypointSize="5" colour="255,255,255,255" numWaypoints="20">
+		<Waypoint id="0" neighbours="5,8,10" position="92.296257,0.000000,-140.600876" />
+		<Waypoint id="1" neighbours="6,9,10" position="101.772491,0.000000,89.456970" />
+		<Waypoint id="2" neighbours="7,9,11" position="-96.342712,0.000000,86.493279" />
+		<Waypoint id="3" neighbours="4,8,11" position="-90.809509,0.000000,-136.237976" />
+		<Waypoint id="4" neighbours="3,5,6,7" position="-32.135414,0.000000,-59.643639" />
+		<Waypoint id="5" neighbours="0,4,7,6" position="30.424763,0.000000,-59.643639" />
+		<Waypoint id="6" neighbours="1,4,5,7" position="32.625797,0.000000,6.463622" />
+		<Waypoint id="7" neighbours="2,4,5,6" position="-29.033218,0.000000,6.138363" />
+		<Waypoint id="8" neighbours="0,3,15" position="0.000000,0.000000,-139.030914" />
+		<Waypoint id="9" neighbours="1,2,14" position="0.000000,0.000000,90.913101" />
+		<Waypoint id="10" neighbours="0,1,12" position="106.127991,0.000000,-29.954901" />
+		<Waypoint id="11" neighbours="2,3,13" position="-97.283989,0.000000,-29.954901" />
+		<Waypoint id="12" neighbours="10,16,17" position="229.943970,0.000000,-29.954901" />
+		<Waypoint id="13" neighbours="11,18,19" position="-226.014755,0.000000,-29.954901" />
+		<Waypoint id="14" neighbours="9,16,19" position="0.000000,0.000000,197.041077" />
+		<Waypoint id="15" neighbours="8,17,18" position="0.000000,0.000000,-251.054855" />
+		<Waypoint id="16" neighbours="12,14" position="224.047943,0.000000,197.041077" />
+		<Waypoint id="17" neighbours="12,15" position="224.047943,0.000000,-242.210907" />
+		<Waypoint id="18" neighbours="13,15" position="-226.585175,0.000000,-242.210907" />
+		<Waypoint id="19" neighbours="13,14" position="-226.585175,0.000000,197.041077" />
+	</WaypointGroup>
+</FileInfo>

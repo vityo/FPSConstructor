@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IrrGame.IrrAi.CAIManager" Collapsed="true">
+    <Position X="4" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iEBAMJCCEABAAgGICQEIBCBBAYpTAAAMCAsoACSWEAQ=</HashCode>
+      <FileName>IrrAi\CAIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.SAStarSearchNode" Collapsed="true">
+    <Position X="5.75" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAABAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>IrrAi\CAStarPathFinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.CAStarPathFinder" Collapsed="true">
+    <Position X="1" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IrrAi\CAStarPathFinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.CBreadthFirstPathFinder" Collapsed="true">
+    <Position X="3.5" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IrrAi\CBreadthFirstPathFinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.CCombatNPC" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAJAAAAQCBAAEAAAAAAAAAAiAAIggAAABAAAAhAEAQA=</HashCode>
+      <FileName>IrrAi\CCombatNPC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.CConeFieldOfView" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAgAAAAAAAAAAAAAAAAAEAAAAQAIAAA=</HashCode>
+      <FileName>IrrAi\CConeFieldOfView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.CDebugConeFOVSceneNode" Collapsed="true">
+    <Position X="7.75" Y="10.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAQAAACAAAAAAAAUAAAAAAEAAAEARYAAA=</HashCode>
+      <FileName>IrrAi\CDebugConeFOVSceneNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.CEntryExitSensor" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEAAA=</HashCode>
+      <FileName>IrrAi\CEntryExitSensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.CIrrAIFileParser" Collapsed="true">
+    <Position X="0.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IrrAi\CIrrAIFileParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.CIrrAIFileWriter" Collapsed="true">
+    <Position X="2.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IrrAi\CIrrAIFileWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.CPathFindingNPC" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAEAQA=</HashCode>
+      <FileName>IrrAi\CPathFindingNPC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.CPlayerAIEntity" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IrrAi\CPlayerAIEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.CWaypoint" Collapsed="true">
+    <Position X="2.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAEAAAAAAAAAAAAAAAAQAAAACIA=</HashCode>
+      <FileName>IrrAi\CWaypoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.CWaypointMeshSceneNode" Collapsed="true">
+    <Position X="7.5" Y="12" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QEBAAAEAAAAAQoAFCCAAAAAEAWQCIAAQAAgQEBQQAAA=</HashCode>
+      <FileName>IrrAi\CWaypointMeshSceneNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.Interface.SAIEntityDesc" Collapsed="true">
+    <Position X="6.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAgAAIAAAQAAAAAAAAAAAAAAAAIgAA=</HashCode>
+      <FileName>IrrAi\Interface\IAIEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.Interface.IAIEntity" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAAKBEKMGAgACRBQAAAE8CIQAAABBCAQAEBBEMAUE=</HashCode>
+      <FileName>IrrAi\Interface\IAIEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.Interface.SWaypointGroup" Collapsed="true">
+    <Position X="0.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAgAAIAAAgQAAAAAAABQAAAEABQAAAA=</HashCode>
+      <FileName>IrrAi\Interface\IAIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.Interface.SEntityGroup" Collapsed="true">
+    <Position X="5.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAACAAAA=</HashCode>
+      <FileName>IrrAi\Interface\IAIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.Interface.IAIManager" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iEBAMJCCAABAAgEICQEABCBBAYpRAAAICAqIBCCWAAQ=</HashCode>
+      <FileName>IrrAi\Interface\IAIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.Interface.IAISensor" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAABAAAAAAAAAAAAAAAAAEAAACAACA=</HashCode>
+      <FileName>IrrAi\Interface\IAISensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.Interface.SCombatNPCDesc" Collapsed="true">
+    <Position X="6.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAACAAAAAAAAAAAAAIIAAAAABAAAAAAAAA=</HashCode>
+      <FileName>IrrAi\Interface\ICombatNPC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.Interface.ICombatNPC" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAFABACCABAAAAAAAAgAAIIAAACAJCBAAAIBAA=</HashCode>
+      <FileName>IrrAi\Interface\ICombatNPC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.Interface.IDebugFOVSceneNode" Collapsed="true">
+    <Position X="7.5" Y="9.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAIAAAIAAAAAAACAAAAIAAA=</HashCode>
+      <FileName>IrrAi\Interface\IDebugFovSceneNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.Interface.IFieldOfView" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIKAAAAAQAIAgBAAAAAICCAAAAAAAAAQAgAAIQAA=</HashCode>
+      <FileName>IrrAi\Interface\IFieldOfView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.Interface.SNPCDesc" Collapsed="true">
+    <Position X="6.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABgAAAAAAAAAQAAAJAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IrrAi\Interface\INPC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.Interface.INPC" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBE0AgAAAAAABAQAhQBAABKAIABJAAAAQAABBAEECU=</HashCode>
+      <FileName>IrrAi\Interface\INPC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.Interface.SSearchNode" Collapsed="true">
+    <Position X="5.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IrrAi\Interface\IPathFinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.Interface.IPathFinder" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAIAgAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>IrrAi\Interface\IPathFinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.Interface.IPlayerAIEntity" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IrrAi\Interface\IPlayerAIEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.Interface.IWaypoint" Collapsed="true">
+    <Position X="2.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIAAAAACAggCgAACAggACAAAAAAAAAAACABAAAqA=</HashCode>
+      <FileName>IrrAi\Interface\IWaypoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrAi.Interface.Utility" Collapsed="true">
+    <Position X="4" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAIgAAAAAAAAAAAA=</HashCode>
+      <FileName>IrrAi\Interface\Utility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrFPS.CBotCharacter" Collapsed="true">
+    <Position X="12.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEAgCAAQAAAAAAAAgAEAgAAAADCAACAAACCAAgEAAA=</HashCode>
+      <FileName>IrrFPS\CBotCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrFPS.CCharacter" Collapsed="true">
+    <Position X="14" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BSAJCiBgQCAACAAAAAmAABiGAgCALEhAKACEBBgEAEA=</HashCode>
+      <FileName>IrrFPS\CCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrFPS.CIrrOcclusion" Collapsed="true">
+    <Position X="15.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAABAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>IrrFPS\CIrrOcclusion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrFPS.CNPCharacter" Collapsed="true">
+    <Position X="12.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAEAAA=</HashCode>
+      <FileName>IrrFPS\CNPCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrFPS.CPlayerCharacter" Collapsed="true">
+    <Position X="15" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAICABBBQgQAEBCAAAAGAEBQAQAAAJAABCCCAAAkAoA=</HashCode>
+      <FileName>IrrFPS\CPlayerCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.IrrFPS.CProjectile" Collapsed="true">
+    <Position X="15.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAMoAAAAAAAAgEACAADAQBEGAIAAAAEAAADACEgQQ=</HashCode>
+      <FileName>IrrFPS\CProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IrrGame.Program">
+    <Position X="14" Y="13.5" Width="2.5" />
+    <NestedTypes>
+      <Class Name="IrrGame.Program.SkyBox" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Struct Name="IrrGame.Program.ShotNode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="IrrGame.Program.Interface" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="IrrGame.Program.BillBoard" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="IrrGame.Program.Parameters" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="IrrGame.Program.Bots" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="IrrGame.Program.SkyType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="IrrGame.Program.Character" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="IrrGame.Program.Window" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="IrrGame.Program.Graphics" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="IrrGame.Program.AnimationSpeed" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="IrrGame.Program.Projectile" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="IrrGame.Program.Game" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="IrrGame.Program.Map" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Class Name="IrrGame.Program.Sky" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Struct Name="IrrGame.Program.Player" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Class Name="IrrGame.Program.SkyDome" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAhAAAgIAAJAAAoAAEYEAAAAAAAAJAEBAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="IrrGame.IrrAi.Interface.SNeighbour" Collapsed="true">
+    <Position X="2.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>IrrAi\Interface\IWaypoint.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="IrrGame.IrrAi.Interface.E_AIENTITY_TYPE" Collapsed="true">
+    <Position X="0.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAMAAAAAAAAAAAEAAAAAAAAAAAECAAA=</HashCode>
+      <FileName>IrrAi\Interface\IAIEntity.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IrrGame.IrrAi.Interface.E_AISENSOR_EVENT_TYPE" Collapsed="true">
+    <Position X="2.25" Y="14" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAgAAAAAAAEAAA=</HashCode>
+      <FileName>IrrAi\Interface\IAISensor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IrrGame.IrrAi.Interface.E_NPC_STATE_TYPE" Collapsed="true">
+    <Position X="7" Y="14" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BEAAUAAAAAAAAAAAAAAAAAAAAAAAgAACEEAAAAABAgA=</HashCode>
+      <FileName>IrrAi\Interface\INPC.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IrrGame.IrrAi.Interface.E_NPC_EVENT_TYPE" Collapsed="true">
+    <Position X="4.75" Y="14" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AkAAAAAAAAAABEAAEAADAAQAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>IrrAi\Interface\INPC.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

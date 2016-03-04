@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Parameters>
+  <Game Name="TPS" FPS="False" />
+  <Window Width="1024" Height="768" BitsPerPixel="32" />
+  <Interface WinImagePath="D:\Документы\Диплом\irrGame\irrGame\bin\FPSExample v1old\Media\WinImage.png" LoseImagePath="D:\Документы\Диплом\irrGame\irrGame\bin\FPSExample v1old\Media\LoseImage.png" FontDigitPath="D:\Документы\Диплом\irrGame\irrGame\bin\FPSExample v1old\Media\FontDigit.png" ColorHealth="33,255,33,200" ColorProjectiles="255,112,77,200" />
+  <Graphics Antialiasing="16" DriverType="DirectX" FullScreen="True" VSync="True" />
+  <Sky Type="Box" TopTexturePath="D:\Документы\Диплом\FPSConstructor\media\skyBoxPlanet1.jpg" BottomTexturePath="D:\Документы\Диплом\FPSConstructor\media\skyBoxPlanet2.jpg" LeftTexturePath="D:\Документы\Диплом\FPSConstructor\media\skyBoxPlanet3.jpg" RightTexturePath="D:\Документы\Диплом\FPSConstructor\media\skyBoxPlanet4.jpg" FrontTexturePath="D:\Документы\Диплом\FPSConstructor\media\skyBoxPlanet5.jpg" BackTexturePath="D:\Документы\Диплом\FPSConstructor\media\skyBoxPlanet6.jpg" />
+  <Map MapPath="D:\Документы\Диплом\FPSConstructor\media\shad3dm2.pk3" MinimalPolysPerNode="16384" MapAIPath="D:\Документы\Диплом\IrrConstructor\IrrConstructor\bin\Debug\TPSAI.irrai" />
+  <Character MaxHealth="300" MaxAmmo="25" TimeShotDelay="250" TimeFallToDeath="700" RegenerateHealth="False" RefillPeriodHealth="0" RegenerateAmmo="True" RefillPeriodAmmo="1500" DrawnHealth="20" OffsetStand="0,0,0" OffsetCrouch="0,-20,0">
+    <AnimationSpeed Death="30" Boom="0" CrouchAttack="100" Attack="100" Jump="40" CrouchWalk="80" Run="40" CrouchStand="50" Stand="50" />
+  </Character>
+  <Bots NumBots="6" TimeJump="200" TimeCrouching="1000" Range="900" FieldOfViewDimensions="900,900,0" MoveSpeed="0.18" AtDestinationThreshold="20" JumpUpFactor="0.36" JumpAroundFactor="0.1" ModelPath="D:\Документы\Диплом\irrGame\irrGame\bin\FPSExample v1old\Media\CharacterModel.md2" TexturePath="D:\Документы\Диплом\irrGame\irrGame\bin\Debug\Media\BotTexture1.jpg" />
+  <Player MoveSpeed="6" RotateSpeed="200" JumpSpeed="6" Position="-40,20,-15" Target="0,30,-15" FarValue="30000" Scale="15,40,15" EllipsoidRadius="15,25,15" EllipsoidTranslation="0,0,0" GravityPerSecond="0,-20,0">
+    <ShotNode Scale="1,1,1" Position="0,0,0" Rotation="0,0,0" ModelPath="D:\Документы\Диплом\irrGame\irrGame\bin\Debug\Media\CharacterModel.md2" TexturePath="D:\Документы\Диплом\irrGame\irrGame\bin\Debug\Media\PlayerTexture2.jpg" />
+  </Player>
+  <Projectile StartPositionBotStand="0,20,0" StartPositionBotCrouch="0,0,0" StartPositionPlayerStand="0,15,0" StartPositionPlayerCrouch="0,-5,0" Speed="20" MaxDistanceTravelled="30000">
+    <LiveBillBoard TextureTimePerFrame="0.03" Dimension="15,15">
+      <Texture Path="D:\Документы\Диплом\irrGame\irrGame\bin\Debug\Media\Projectile\LiveBillBoard\1.jpg" />
+    </LiveBillBoard>
+    <DieBillBoard TextureTimePerFrame="0.03" Dimension="25,25">
+      <Texture Path="D:\Документы\Диплом\irrGame\irrGame\bin\FPSExample v1old\Media\Projectile\DieBillBoard\1.jpg" />
+      <Texture Path="D:\Документы\Диплом\irrGame\irrGame\bin\FPSExample v1old\Media\Projectile\DieBillBoard\2.jpg" />
+      <Texture Path="D:\Документы\Диплом\irrGame\irrGame\bin\FPSExample v1old\Media\Projectile\DieBillBoard\3.jpg" />
+      <Texture Path="D:\Документы\Диплом\irrGame\irrGame\bin\FPSExample v1old\Media\Projectile\DieBillBoard\4.jpg" />
+      <Texture Path="D:\Документы\Диплом\irrGame\irrGame\bin\FPSExample v1old\Media\Projectile\DieBillBoard\5.jpg" />
+      <Texture Path="D:\Документы\Диплом\irrGame\irrGame\bin\FPSExample v1old\Media\Projectile\DieBillBoard\6.jpg" />
+    </DieBillBoard>
+  </Projectile>
+</Parameters>

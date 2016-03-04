@@ -1,0 +1,8 @@
+d:\Документы\Диплом\irrGame\irrGame\bin\Release\irrGame.exe.config
+d:\Документы\Диплом\irrGame\irrGame\bin\Release\irrGame.exe
+d:\Документы\Диплом\irrGame\irrGame\bin\Release\irrGame.pdb
+d:\Документы\Диплом\irrGame\irrGame\bin\Release\IrrlichtLime.dll
+d:\Документы\Диплом\irrGame\irrGame\bin\Release\IrrlichtLime.xml
+d:\Документы\Диплом\irrGame\irrGame\obj\Release\irrGame.exe
+d:\Документы\Диплом\irrGame\irrGame\obj\Release\irrGame.pdb
+d:\Документы\Диплом\irrGame\irrGame\obj\Release\irrGame.csprojResolveAssemblyReference.cache

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Parameters>
+  <Game Name="FPS" FPS="True" />
+  <Window Width="800" Height="600" BitsPerPixel="16" />
+  <Interface WinImagePath="Media\WinImage.png" LoseImagePath="Media\LoseImage.png" FontDigitPath="Media\FontDigit.png" ColorHealth="255,33,33,255" ColorProjectiles="77,112,255,255" />
+  <Graphics Antialiasing="0" DriverType="DirectX" FullScreen="False" VSync="True" />
+  <Sky Type="Box" TopTexturePath="Media\Sky\Top.jpg" BottomTexturePath="Media\Sky\Bottom.jpg" LeftTexturePath="Media\Sky\Left.jpg" RightTexturePath="Media\Sky\Right.jpg" FrontTexturePath="Media\Sky\Front.jpg" BackTexturePath="Media\Sky\Back.jpg" />
+  <Map MapPath="Media\Map.irr" MinimalPolysPerNode="4096" MapAIPath="Media\MapAI.irrai">
+    <MapExtraFile Path="D:\Документы\Диплом\irrGame\irrGame\bin\FPSExample v1old\Media\brick.jpg" />
+    <MapExtraFile Path="D:\Документы\Диплом\irrGame\irrGame\bin\FPSExample v1old\Media\concrete_floor.jpg" />
+  </Map>
+  <Character MaxHealth="100" MaxAmmo="50" TimeShotDelay="300" TimeFallToDeath="700" RegenerateHealth="True" RefillPeriodHealth="500" RegenerateAmmo="True" RefillPeriodAmmo="1000" DrawnHealth="10" OffsetStand="0,0,0" OffsetCrouch="0,-20,0">
+    <AnimationSpeed Death="30" Boom="0" CrouchAttack="100" Attack="100" Jump="40" CrouchWalk="80" Run="40" CrouchStand="50" Stand="50" />
+  </Character>
+  <Bots NumBots="4" TimeJump="200" TimeCrouching="1000" Range="700" FieldOfViewDimensions="600,600,0" MoveSpeed="0.15" AtDestinationThreshold="20" JumpUpFactor="0.3" JumpAroundFactor="0.1" ModelPath="Media\CharacterModel.md2" TexturePath="Media\BotTexture.jpg" />
+  <Player MoveSpeed="5" RotateSpeed="200" JumpSpeed="5" Position="150,50,0" Target="50,0,50" FarValue="30000" Scale="15,40,15" EllipsoidRadius="15,30,15" EllipsoidTranslation="0,20,0" GravityPerSecond="0,-20,0">
+    <ShotNode Scale="0.25,0.25,0.25" Position="3.5,-6,9" Rotation="0,-90,0" ModelPath="Media\Blaster.3DS" TexturePath="Media\Blaster.jpg" />
+  </Player>
+  <Projectile StartPositionBotStand="0,20,0" StartPositionBotCrouch="0,0,0" StartPositionPlayerStand="3.5,-6,9" StartPositionPlayerCrouch="3.5,-6,9" Speed="10" MaxDistanceTravelled="30000">
+    <LiveBillBoard TextureTimePerFrame="0.03" Dimension="15,15">
+      <Texture Path="Media\Projectile\LiveBillBoard\1.jpg" />
+      <Texture Path="Media\Projectile\LiveBillBoard\2.jpg" />
+      <Texture Path="Media\Projectile\LiveBillBoard\3.jpg" />
+      <Texture Path="Media\Projectile\LiveBillBoard\4.jpg" />
+      <Texture Path="Media\Projectile\LiveBillBoard\5.jpg" />
+      <Texture Path="Media\Projectile\LiveBillBoard\6.jpg" />
+      <Texture Path="Media\Projectile\LiveBillBoard\7.jpg" />
+    </LiveBillBoard>
+    <DieBillBoard TextureTimePerFrame="0.03" Dimension="25,25">
+      <Texture Path="Media\Projectile\DieBillBoard\1.jpg" />
+      <Texture Path="Media\Projectile\DieBillBoard\2.jpg" />
+      <Texture Path="Media\Projectile\DieBillBoard\3.jpg" />
+      <Texture Path="Media\Projectile\DieBillBoard\4.jpg" />
+      <Texture Path="Media\Projectile\DieBillBoard\5.jpg" />
+      <Texture Path="Media\Projectile\DieBillBoard\6.jpg" />
+    </DieBillBoard>
+  </Projectile>
+</Parameters>

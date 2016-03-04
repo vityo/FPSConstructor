@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <creation width="800" height="600" color="16" antialiasing="0" drivertype="4" fullscreen="False" vsync="True" />
+  <camera>
+    <position x="1600" y="250" z="1600" />
+  </camera>
+  <mapfilename filename="media/20kdm2.pk3" />
+  <sky type="dome" around="media/skydome1.jpg" />
+</parameters>

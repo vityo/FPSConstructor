@@ -1,0 +1,16 @@
+D:\Универ\0 1 ПОП\irrGame\irrGame\bin\Debug\irrGame.exe.config
+D:\Универ\0 1 ПОП\irrGame\irrGame\bin\Debug\irrGame.exe
+D:\Универ\0 1 ПОП\irrGame\irrGame\bin\Debug\irrGame.pdb
+D:\Универ\0 1 ПОП\irrGame\irrGame\bin\Debug\IrrlichtLime.dll
+D:\Универ\0 1 ПОП\irrGame\irrGame\bin\Debug\IrrlichtLime.xml
+D:\Универ\0 1 ПОП\irrGame\irrGame\obj\Debug\irrGame.exe
+D:\Универ\0 1 ПОП\irrGame\irrGame\obj\Debug\irrGame.pdb
+D:\Универ\0 1 ПОП\irrGame\irrGame\obj\Debug\irrGame.csprojResolveAssemblyReference.cache
+d:\Документы\Диплом\irrGame\irrGame\bin\Debug\irrGame.exe.config
+d:\Документы\Диплом\irrGame\irrGame\bin\Debug\irrGame.exe
+d:\Документы\Диплом\irrGame\irrGame\bin\Debug\irrGame.pdb
+d:\Документы\Диплом\irrGame\irrGame\bin\Debug\IrrlichtLime.dll
+d:\Документы\Диплом\irrGame\irrGame\bin\Debug\IrrlichtLime.xml
+d:\Документы\Диплом\irrGame\irrGame\obj\Debug\irrGame.csprojResolveAssemblyReference.cache
+d:\Документы\Диплом\irrGame\irrGame\obj\Debug\irrGame.exe
+d:\Документы\Диплом\irrGame\irrGame\obj\Debug\irrGame.pdb

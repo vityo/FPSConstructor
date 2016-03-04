@@ -1,0 +1,9 @@
+D:\Документы\Диплом\IrrConstructor\IrrConstructor\bin\Debug\IrrConstructor.exe.config
+D:\Документы\Диплом\IrrConstructor\IrrConstructor\obj\Debug\IrrConstructor.csprojResolveAssemblyReference.cache
+D:\Документы\Диплом\IrrConstructor\IrrConstructor\obj\Debug\IrrConstructor.Properties.Resources.resources
+D:\Документы\Диплом\IrrConstructor\IrrConstructor\obj\Debug\IrrConstructor.csproj.GenerateResource.Cache
+D:\Документы\Диплом\IrrConstructor\IrrConstructor\bin\Debug\IrrConstructor.exe
+D:\Документы\Диплом\IrrConstructor\IrrConstructor\bin\Debug\IrrConstructor.pdb
+D:\Документы\Диплом\IrrConstructor\IrrConstructor\obj\Debug\IrrConstructor.exe
+D:\Документы\Диплом\IrrConstructor\IrrConstructor\obj\Debug\IrrConstructor.pdb
+D:\Документы\Диплом\IrrConstructor\IrrConstructor\obj\Debug\IrrConstructor.Form1.resources

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{735DFCE2-7A41-4DAA-9C7B-795C0B4AEBC2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>irrGame</RootNamespace>
+    <AssemblyName>irrGame</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IrrlichtLime">
+      <HintPath>..\..\irrWinForms\irrWinForms\bin\Debug\IrrlichtLime.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IrrAi\CAIManager.cs" />
+    <Compile Include="IrrAi\CAStarPathFinder.cs" />
+    <Compile Include="IrrAi\CBreadthFirstPathFinder.cs" />
+    <Compile Include="IrrAi\CCombatNPC.cs" />
+    <Compile Include="IrrAi\CConeFieldOfView.cs" />
+    <Compile Include="IrrAi\CEntryExitSensor.cs" />
+    <Compile Include="IrrAi\CIrrAIFileWriter.cs" />
+    <Compile Include="IrrAi\CPathFindingNPC.cs" />
+    <Compile Include="IrrAi\CPlayerAIEntity.cs" />
+    <Compile Include="IrrAi\CWaypoint.cs" />
+    <Compile Include="IrrAi\CWaypointMeshSceneNode.cs" />
+    <Compile Include="IrrAi\CIrrAIFileParser.cs" />
+    <Compile Include="IrrAi\Interface\IAIEntity.cs" />
+    <Compile Include="IrrAi\Interface\IAIManager.cs" />
+    <Compile Include="IrrAi\Interface\IAISensor.cs" />
+    <Compile Include="IrrAi\Interface\ICombatNPC.cs" />
+    <Compile Include="IrrAi\Interface\IDebugFovSceneNode.cs" />
+    <Compile Include="IrrAi\Interface\IFieldOfView.cs" />
+    <Compile Include="IrrAi\Interface\INPC.cs" />
+    <Compile Include="IrrAi\Interface\IPathFinder.cs" />
+    <Compile Include="IrrAi\Interface\IPlayerAIEntity.cs" />
+    <Compile Include="IrrAi\Interface\IrrAI.cs" />
+    <Compile Include="IrrAi\Interface\IWaypoint.cs" />
+    <Compile Include="IrrAi\Interface\Utility.cs" />
+    <Compile Include="IrrAi\CDebugConeFOVSceneNode.cs" />
+    <Compile Include="IrrFPS\CBotCharacter.cs" />
+    <Compile Include="IrrFPS\CCharacter.cs" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="IrrFPS\CChasingCharacter.cs" />
+    <None Include="IrrFPS\CFleeingCharacter.cs" />
+    <Compile Include="IrrFPS\CIrrOcclusion.cs" />
+    <Compile Include="IrrFPS\CNPCharacter.cs" />
+    <Compile Include="IrrFPS\CPlayerCharacter.cs" />
+    <Compile Include="IrrFPS\CProjectile.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

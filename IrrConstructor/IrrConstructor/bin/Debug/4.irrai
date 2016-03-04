@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FileInfo fileVersion="0.50" numWaypointGroups="1" numEntities="0">
+  <WaypointGroup name="Group1" waypointSize="5" colour="255,255,255,255" numWaypoints="5">
+    <Waypoint id="0" neighbours="1,4" position="131.2525,-64,-115.9455" />
+    <Waypoint id="1" neighbours="0,2" position="7.219742,-64,-16.55411" />
+    <Waypoint id="2" neighbours="1,3" position="154.7835,-64,-59.4074" />
+    <Waypoint id="3" neighbours="2,4" position="23.41473,-64,-81.08654" />
+    <Waypoint id="4" neighbours="3,0" position="78.95473,-64,13.9198" />
+  </WaypointGroup>
+</FileInfo>
